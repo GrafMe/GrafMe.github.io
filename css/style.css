@@ -1,7 +1,6 @@
 html, body{
     margin: 0;
     background-color: #F0F0FF;
-    animation: fwshaaa 2.5s;
 }
 
 @keyframes fwshaaa {
@@ -11,7 +10,7 @@ html, body{
         }
         25%{
             opacity: 1;
-            transform: rotate(-180deg);
+            transform: scale(1.5);
         }
         50%{
             opacity: 0.5;
@@ -29,6 +28,7 @@ html, body{
 
 *{
     box-sizing: border-box;
+    /*animation: fwshaaa 1.5s infinite alternate;*/
 }
 
 aside{
