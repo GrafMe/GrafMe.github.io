@@ -1,0 +1,23 @@
+
+aside a:nth-child(n+2):hover{
+    box-shadow: none;
+}
+aside a:nth-child(n+2) svg + svg {
+    opacity: 0
+}
+
+aside a:nth-child(n+2){
+    background-color:#9597A6;
+    color: #9597A6;
+    text-shadow: none;
+}
+
+aside a:nth-child(n+2) svg{
+    fill: #9597A6;
+}
+
+main p{
+    color: red;
+    padding-left: 10px;
+    margin-top: 0;
+}
